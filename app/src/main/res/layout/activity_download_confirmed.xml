@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="prototipegs1.gestorsm.gs1.diuplasticos.DownloadConfirmed">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Está realizándose la descarga de los datos seleccionados."
+        android:textAlignment="gravity"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="150dp"
+        android:background="@drawable/mybutton"
+        android:layout_height="wrap_content"
+        android:onClick="toMap"
+        android:text="Aceptar" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="prototipegs1.gestorsm.gs1.diuplasticos.ForgotPass">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        android:text="Recuperar contraseña"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Se  le  enviará  un  correo  para  recuperar  su contraseña."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Introduzca el correo con el que se dio de alta."
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:background="@drawable/mybutton"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="Aceptar" />
+</LinearLayout>

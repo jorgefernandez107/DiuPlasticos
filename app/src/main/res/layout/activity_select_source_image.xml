@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@android:color/darker_gray"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="prototipegs1.gestorsm.gs1.diuplasticos.SelectSourceImage">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:text="Seleccione el origen de la imagen"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mybutton"
+                android:gravity="center_vertical|center_horizontal"
+                android:onClick="toCamera"
+                android:text="Cámara" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/mybutton"
+                android:onClick="selectFromGallery"
+                android:text="Galería" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/mybutton"
+            android:onClick="back"
+            android:text="Volver" />
+    </LinearLayout>
+
+</LinearLayout>
