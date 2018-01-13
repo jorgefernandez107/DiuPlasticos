@@ -79,7 +79,7 @@
                     android:id="@+id/textView5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cantidad de microplásticos: 3 gr"
+                    android:text="Cantidad de microplásticos: 3 cm³"
                     android:textColor="@color/whiteblue" />
 
             </LinearLayout>
@@ -148,7 +148,7 @@
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cantidad de microplásticos: 3 gr"
+                    android:text="Cantidad de microplásticos: 6 cm³"
                     android:textColor="@color/whiteblue" />
 
             </LinearLayout>
@@ -217,7 +217,7 @@
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cantidad de microplásticos: 3 gr"
+                    android:text="Cantidad de microplásticos: 2 cm³"
                     android:textColor="@color/whiteblue" />
 
             </LinearLayout>
@@ -286,7 +286,7 @@
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cantidad de microplásticos: 3 gr"
+                    android:text="Cantidad de microplásticos: 5 cm³"
                     android:textColor="@color/whiteblue" />
 
             </LinearLayout>
@@ -355,7 +355,7 @@
                     android:id="@+id/textView21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cantidad de microplásticos: 3 gr"
+                    android:text="Cantidad de microplásticos: 3 cm³"
                     android:textColor="@color/whiteblue" />
 
             </LinearLayout>

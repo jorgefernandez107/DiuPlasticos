@@ -14,9 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:text="La imagen ha sido añadida al sistema."
+        android:text="La imagen será procesada en nuestros servidores."
         android:textAlignment="center"
-        android:textColor="@android:color/black"
         android:textSize="18sp" />
 
     <ImageView
